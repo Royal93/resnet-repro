@@ -1,0 +1,30 @@
+{
+  "arch": "resnet",
+  "depth": 56,
+  "shortcut": "A",
+  "seed": 2,
+  "iters": 64000,
+  "milestones": [
+    32000,
+    48000
+  ],
+  "lr": 0.1,
+  "momentum": 0.9,
+  "wd": 0.0001,
+  "batch": 128,
+  "warmup": false,
+  "val_split": false,
+  "eval_every": 500,
+  "no_amp": false,
+  "deterministic": false,
+  "data_dir": "./data",
+  "out_dir": "./runs",
+  "tag": "",
+  "params": 853018,
+  "torch": "2.14.1+cu126",
+  "torchvision": "0.29.1+cu126",
+  "cuda": "12.6",
+  "cudnn": 91002,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "python": "3.11.17"
+}

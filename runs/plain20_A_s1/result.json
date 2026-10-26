@@ -1,0 +1,13 @@
+{
+  "name": "plain20_A_s1",
+  "arch": "plain",
+  "depth": 20,
+  "shortcut": "A",
+  "seed": 1,
+  "params": 269722,
+  "final_test_err": 9.5,
+  "final_test_loss": 0.3947815582275391,
+  "minutes": 21.5,
+  "eval_set": "test10k",
+  "iters": 64000
+}

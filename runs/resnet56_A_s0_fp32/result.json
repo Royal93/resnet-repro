@@ -1,0 +1,13 @@
+{
+  "name": "resnet56_A_s0_fp32",
+  "arch": "resnet",
+  "depth": 56,
+  "shortcut": "A",
+  "seed": 0,
+  "params": 853018,
+  "final_test_err": 7.95,
+  "final_test_loss": 0.3675626739501953,
+  "minutes": 83.2,
+  "eval_set": "test10k",
+  "iters": 64000
+}

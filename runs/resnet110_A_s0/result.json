@@ -1,0 +1,13 @@
+{
+  "name": "resnet110_A_s0",
+  "arch": "resnet",
+  "depth": 110,
+  "shortcut": "A",
+  "seed": 0,
+  "params": 1727962,
+  "final_test_err": 6.5,
+  "final_test_loss": 0.3143647720336914,
+  "minutes": 87.0,
+  "eval_set": "test10k",
+  "iters": 64000
+}

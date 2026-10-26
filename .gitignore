@@ -1,0 +1,17 @@
+# Dataset (downloaded automatically by train.py)
+data/
+# Temporary training files (final.pt IS committed: it lets Fig. 7 be rebuilt without retraining)
+last.pt
+*.pt.tmp
+*.pt.bak
+runs_timing/
+runs_fresh/
+results_fresh/
+__pycache__/
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.synctex.gz

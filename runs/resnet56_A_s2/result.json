@@ -1,0 +1,13 @@
+{
+  "name": "resnet56_A_s2",
+  "arch": "resnet",
+  "depth": 56,
+  "shortcut": "A",
+  "seed": 2,
+  "params": 853018,
+  "final_test_err": 7.66,
+  "final_test_loss": 0.3448832794189453,
+  "minutes": 38.2,
+  "eval_set": "test10k",
+  "iters": 64000
+}

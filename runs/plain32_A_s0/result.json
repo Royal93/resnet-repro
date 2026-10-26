@@ -1,0 +1,13 @@
+{
+  "name": "plain32_A_s0",
+  "arch": "plain",
+  "depth": 32,
+  "shortcut": "A",
+  "seed": 0,
+  "params": 464154,
+  "final_test_err": 9.89,
+  "final_test_loss": 0.4425484283447266,
+  "minutes": 20.3,
+  "eval_set": "test10k",
+  "iters": 64000
+}
